@@ -1,7 +1,9 @@
 from distutils.core import setup
+
+
 setup(
-  name = 'queue',         # How you named your package folder (MyLib)
-  packages = ['queue'],   # Chose the same as "name"
+  name = 'pyqueues',         # How you named your package folder (MyLib)
+  packages = ['pyqueues'],   # Chose the same as "name"
   version = '1.0',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'A library for Priory-Queues containing Indexed-Priority-Queue and Simple Priority-Queue',   # Give a short description about your library
@@ -9,7 +11,7 @@ setup(
   author_email = 'abdulsalamone@gmail.com',      # Type in your E-Mail
   url = 'https://github.com/abecus/Queue',   # Provide either the link to your github or to your website
   download_url = 'https://github.com/abecus/Queue/archive/master.zip',    # I explain this later on
-  keywords = ['queue', 'priority queue', 'priority', "pq", "heap"],   # Keywords that define your package best
+  keywords = ["pyqueues", 'queues', "queue", 'priority queue', 'priority', "pq", "heap"],   # Keywords that define your package best
   install_requires=[],
   classifiers=[
     "Operating System :: OS Independent",

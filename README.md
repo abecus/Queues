@@ -1,4 +1,4 @@
-queue
+pyqueues
 =================================
 
 A library for Priority-Queues containing Indexed-Priority-Queue and Simple Priority-Queue.
@@ -9,7 +9,7 @@ clone the this reporitory using,
 `https://github.com/abecus/Queue.git`
 
 or, install using pip,
-`pip install queue`
+`pip install pyqueues`
 
 Works with Python 3.x and PyPy.
 
@@ -32,7 +32,7 @@ additionally for Indexed Priority Queue,
 
 ## Usage
 
-`from queue import IndexedPriorityQueue`
+`from pyqueues import IndexedPriorityQueue`
 
 - to heapify a list (does not changes the original list, but heapifies internally),
 
