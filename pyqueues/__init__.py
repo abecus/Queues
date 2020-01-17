@@ -1,2 +1,2 @@
-import pyqueues.heap 
+import pyqueues.heap
 from pyqueues.indexedPriorityQueue import IndexedPriorityQueue

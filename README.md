@@ -32,13 +32,14 @@ additionally for Indexed Priority Queue,
 
 ## Usage
 
-`from pyqueues import IndexedPriorityQueue`
+	from pyqueues.indexedPriorityQueue import IndexedPriorityQueue
+	from pyqueues.heap import heapify, heapPop, heapPush
 
 - to heapify a list (does not changes the original list, but heapifies internally),
 
-        arr = [10, 20, 15, 12, 40, 25, 18, 40]
-        pq = IndexedPriorityQueue(arr)
-        pq.heapify()
+	arr = [10, 20, 15, 12, 40, 25, 18, 40]
+	pq = IndexedPriorityQueue(arr)
+	pq.heapify()
     
 - to push items into the priority queue,	
 
@@ -54,11 +55,11 @@ additionally for Indexed Priority Queue,
 
 - to remove a values from priority queue,
 
-        pq.remove(pq.arrSize-1)    # removes 100
+	pq.remove(pq.arrSize-1)    # removes 100
 
 - to pop highest priority element,
 
-        pq.pop()        # pops -1
+	pq.pop()        # pops -1
 
 License 
 -------
