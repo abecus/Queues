@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: pyqueues
-Version: 1.0
+Version: 1.2
 Summary: A library for Priory-Queues containing Indexed-Priority-Queue and Simple Priority-Queue
 Home-page: https://github.com/abecus/Queue
 Author: Abdul Salam
