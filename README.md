@@ -32,34 +32,34 @@ additionally for Indexed Priority Queue,
 
 ## Usage
 
-	from pyqueues.indexedPriorityQueue import IndexedPriorityQueue
-	from pyqueues.heap import heapify, heapPop, heapPush
+		from pyqueues.indexedPriorityQueue import IndexedPriorityQueue
+		from pyqueues.heap import heapify, heapPop, heapPush
 
 - to heapify a list (does not changes the original list, but heapifies internally),
 
-	arr = [10, 20, 15, 12, 40, 25, 18, 40]
-	pq = IndexedPriorityQueue(arr)
-	pq.heapify()
+		arr = [10, 20, 15, 12, 40, 25, 18, 40]
+		pq = IndexedPriorityQueue(arr)
+		pq.heapify()
 
 - to push items into the priority queue,	
 
-    	pq.push(2)
-    	pq.push(-1)
+		pq.push(2)
+		pq.push(-1)
     	
 - to update a item using key (we an saperatly keep track of the key of the values using a dict by mapping values to the arrSize arrtibute of the priority queue)
     	
-    	pq.update(pq.arrSize-1, 100)    # updates -1 to 100
-    	pq.update(pq.arrSize-2, -1)     # updates 2 to -1
+		pq.update(pq.arrSize-1, 100)    # updates -1 to 100
+		pq.update(pq.arrSize-2, -1)     # updates 2 to -1
 
 "similarly use pq.decreaseKey() and pq.increaseKey() methods (works in half of, the time required for update method), when we know that we are increseing or decresing the values while updating."
 
 - to remove a values from priority queue,
 
-	pq.remove(pq.arrSize-1)    # removes 100
+		pq.remove(pq.arrSize-1)    # removes 100
 
 - to pop highest priority element,
 
-	pq.pop()        # pops -1
+		pq.pop()        # pops -1
 
 ## License
 -------
