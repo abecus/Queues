@@ -40,7 +40,7 @@ additionally for Indexed Priority Queue,
 	arr = [10, 20, 15, 12, 40, 25, 18, 40]
 	pq = IndexedPriorityQueue(arr)
 	pq.heapify()
-    
+
 - to push items into the priority queue,	
 
     	pq.push(2)
@@ -61,7 +61,7 @@ additionally for Indexed Priority Queue,
 
 	pq.pop()        # pops -1
 
-License 
+## License
 -------
 MIT License
 
